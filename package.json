@@ -1,0 +1,27 @@
+{
+    "name": "php-extension-pack-for-development",
+    "displayName": "PHP extension pack for Development",
+    "description": "This are extensions that is used for developing php projects.",
+    "version": "1.0.0",
+    "publisher": "MisterJ",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BroJenuel/CodeExtensionPack.git"
+    },
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "felixfbecker.php-debug",
+        "bmewburn.vscode-intelephense-client",
+        "felixfbecker.php-intellisense"
+    ]
+}
